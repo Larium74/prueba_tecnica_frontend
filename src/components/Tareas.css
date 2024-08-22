@@ -1,0 +1,40 @@
+.tareas-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tareas-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tarea-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .tarea-title {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .tarea-description {
+    margin: 0 0 10px;
+  }
+  
+  .tarea-date {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+  }
